@@ -11,6 +11,7 @@
         coin.className = 'coin2';
       }
       document.getElementById('1-1').appendChild(coin);
+      i += 1;
     })
     document.getElementById('2').addEventListener('click', ()=>{
       const coin = document.createElement('div');
