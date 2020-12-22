@@ -11,8 +11,6 @@
         coin.className = 'coin2';
       }
       document.getElementById('1-1').appendChild(coin);
-      
-      console.log(i);
     })
     document.getElementById('2').addEventListener('click', ()=>{
       const coin = document.createElement('div');
@@ -23,7 +21,6 @@
       }
       document.getElementById('1-2').appendChild(coin);
       i += 1;
-      console.log(i);
     })
     document.getElementById('3').addEventListener('click', ()=>{
       const coin = document.createElement('div');
@@ -185,10 +182,10 @@
       document.getElementById('1-18').appendChild(coin);
       i += 1;
     })
-    document.getElementById('1').addEventListener('click', ()=>{
+    document.getElementById('19').addEventListener('click', ()=>{
       const coin = document.createElement('div');
       if (i%2===0) {
-        coin.className = 'coin19';
+        coin.className = 'coin1';
       } else{
         coin.className = 'coin2';
       }
