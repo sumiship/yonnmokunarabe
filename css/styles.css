@@ -1,0 +1,47 @@
+.board{
+  margin-top: 50px;
+  width: 720px;
+}
+
+.battle{
+  width: 720px;
+  display: flex;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+}
+
+.container{
+  width: 30px;
+  height: 600px;
+  border-left: 2px solid orange;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.button{
+  display: flex;
+}
+
+.button button{
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.coin1{
+  width: 28px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: orchid;
+}
+
+.coin2{
+  width: 28px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+
+
+
+
